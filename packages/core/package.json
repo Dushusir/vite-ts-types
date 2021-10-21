@@ -1,0 +1,35 @@
+{
+    "name": "@vite-ts-types/core",
+    "version": "1.0.0",
+    "description": "",
+    "author": "",
+    "main": "./lib/vite-ts-types.umd.js",
+    "module": "./lib/vite-ts-types.es.js",
+    "types": "./dist/core.d.ts",
+    "directories": {
+        "lib": "lib"
+    },
+    "files": [
+        "package.json",
+        "lib"
+    ],
+    "scripts": {
+        "dev": "vite",
+        "build": "vite build",
+        "buildD": "api-extractor run --local --verbose",
+        "serve": "vite preview"
+    },
+    "license": "MIT",
+    "devDependencies": {
+        "@types/node": "^16.4.6",
+        "dts-bundle-generator": "^5.9.0",
+        "dts-gen": "^0.6.0",
+        "dts-generator": "^3.0.0",
+        "npm-dts": "^1.3.10",
+        "rollup-plugin-dts": "^4.0.0",
+        "ts-node": "^10.2.1",
+        "typescript": "^4.4.4",
+        "vite": "^2.4.4",
+        "vite-plugin-external": "^1.2.3"
+    }
+}

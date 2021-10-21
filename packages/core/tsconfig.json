@@ -1,0 +1,30 @@
+{
+  "compilerOptions": {
+      "rootDir": "src",
+      "outDir": "lib",
+      "target": "ESNext",
+
+      "lib": ["ESNext", "DOM", "WebWorker"],
+      "module": "ESNext",
+      "moduleResolution": "Node", //This value is needed for Node.js.
+
+      "declaration": true,
+      "declarationDir": "./lib",
+      "declarationMap": true,
+      "sourceMap": true,
+      "resolveJsonModule": true,
+      "strict": true,
+      "allowJs": true,
+
+      "baseUrl": "./",
+      "skipLibCheck": true,
+      "esModuleInterop": true, // auto allowSyntheticDefaultImports tru
+      "suppressImplicitAnyIndexErrors": true,
+      "jsx": "preserve",
+      "jsxFactory": "h",
+      "jsxFragmentFactory": "Fragment",
+      "strictPropertyInitialization": false,
+      "types": [],
+  },
+  "include": ["src/**/*"]
+}
