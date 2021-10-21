@@ -1,0 +1,27 @@
+{
+  "name": "vite-ts-types",
+  "version": "1.0.0",
+  "description": "",
+  "private": true,
+  "scripts": {
+    "dev": "lerna run --scope @vite-ts-types/sort dev",
+    "build": "lerna run --scope @vite-ts-types/sort build",
+    "dev:core": "lerna run --scope @vite-ts-types/core dev",
+    "build:core": "lerna run --scope @vite-ts-types/core build",
+    "buildD:core": "lerna run --scope @vite-ts-types/core buildD"
+  },
+  "author": "",
+  "workspaces": [
+    "packages/*"
+  ],
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {
+    "lerna": "^4.0.0",
+    "yarn": "^1.22.11",
+    "@types/node": "^13.11.1",
+    "nodemon": "^2.0.3",
+    "ts-node": "^8.8.2",
+    "typescript": "^4.3.2"
+  }
+}
